@@ -1,1 +1,77 @@
+!!! 5
+%html(lang="en")
+    %head
+        %link{:href => "public/css/bootstrap.min.css", :rel => "stylesheet"}
+    %body
+    %nav.navbar.navbar-default
+        .container-fluid
+            .navbar-header
+                %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+                    %span.sr-only Toggle navigation
+                    %span.icon-bar
+                    %span.icon-bar
+                    %span.icon-bar
+                %a.navbar-brand{:href => "#"} Brand
+                / Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                %ul.nav.navbar-nav
+                    %li.active
+                        %a{:href => "#"}
+                            Link
+                            %span.sr-only (current)
+                    %li
+                        %a{:href => "#"} Link
+                    %li.dropdown
+                        %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                            Dropdown
+                            %span.caret
+                        %ul.dropdown-menu
+                            %li
+                                %a{:href => "#"} Action
+                            %li
+                                %a{:href => "#"} Another action
+                            %li
+                                %a{:href => "#"} Something else here
+                            %li.divider{:role => "separator"}
+                            %li
+                                %a{:href => "#"} Separated link
+                            %li.divider{:role => "separator"}
+                            %li
+                                %a{:href => "#"} One more separated link
+                %form.navbar-form.navbar-left{:role => "search"}
+                    .form-group
+                        %input.form-control{:placeholder => "Search", :type => "text"}
+                    %button.btn.btn-default{:type => "submit"} Submit
+                %ul.nav.navbar-nav.navbar-right
+                    %li
+                        %a{:href => "#"} Link
+                    %li.dropdown
+                        %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                            Dropdown
+                            %span.caret
+                        %ul.dropdown-menu
+                            %li
+                                %a{:href => "#"} Action
+                            %li
+                                %a{:href => "#"} Another action
+                            %li
+                                %a{:href => "#"} Something else here
+                            %li.divider{:role => "separator"}
+                            %li
+                                %a{:href => "#"} Separated link
+        .row
+            .col-lg-4
 
+            .col-lg-4
+                %h1.text-center Henry Williams
+                %p.text-center
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at finibus mi, ac tempor tellus. Phasellus sed ipsum vel mi ullamcorper sagittis eu ut risus. Sed mollis, purus consectetur aliquam feugiat, sem diam molestie dolor, at congue orci lacus vel nisi. Sed varius lectus nisi, sed interdum tortor laoreet eget. Quisque mattis tempus leo non sollicitudin. Integer rhoncus orci vel tempor faucibus. Mauris pharetra tellus in tortor faucibus, ac mattis ligula pulvinar. Maecenas tempor egestas dapibus.
+            .col-lg-4
+
+
+        %footer.footer
+            %p.text-center
+                %a{:href => "https://www.github.com/humford"} &copy; Henry Williams
+
+        %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+        %script{:src => "public/js/bootstrap.min.js"}
