@@ -6,6 +6,7 @@ Simple site to showcase programming projects, resume, and social media accounts.
 3. List of skills
 4. Prior work
 5. Some kind of live element
+  - Utilizing Java(Coffee)script
 6. Implement sinatra
 
 
